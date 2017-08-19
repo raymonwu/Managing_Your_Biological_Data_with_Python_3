@@ -1,6 +1,6 @@
 # Managing Your Biological Data with Python 3
 
-## Origin Fork from https://github.com/re4lfl0w/ipython/tree/master/books/Managing_Your_Biological_Data_with_Python
+Origin Fork from https://github.com/re4lfl0w/ipython/tree/master/books/Managing_Your_Biological_Data_with_Python
 
 I trans the code to Python 3
 
