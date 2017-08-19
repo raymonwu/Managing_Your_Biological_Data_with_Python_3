@@ -24,7 +24,7 @@ My topic is Function, Debugging, Good Program, so it has a lot of IT characteris
   - PDB file format
   - Location-based data parsing method (silly, smart)
   - Module for module creation
-- [12. Debugging](http://nbviewer.ipython.org/urls/raw.github.com/re4lfl0w/ipython/master/books/Managing_Your_Biological_Data_with_Python/ch12.ipynb)건
+- [12. Debugging](http://nbviewer.ipython.org/urls/raw.github.com/re4lfl0w/ipython/master/books/Managing_Your_Biological_Data_with_Python/ch12.ipynb)
   - debugging
   - list of error(SyntaxError, NameError, etc)
   - Handling Exceptions
