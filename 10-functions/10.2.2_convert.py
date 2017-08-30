@@ -40,11 +40,12 @@ def get_residues(pdb_file):
     residues = []
     for line in pdb_file:
         if line[0:4] == "ATOM":
-            tmp = struct.unpack(pdb_format, line)
-            ca = tmp[3].strip()
+            tmp = struct.unpack(pdb_format, line.encode('utf-8'))
+            tmp_to_string = [line.decode('utf-8') for line in tmp]
+            ca = tmp_to_string[3].strip()
             if ca == 'CA':
-                res_type = tmp[5].strip()
-                chain = tmp[7]
+                res_type = tmp_to_string[5].strip()
+                chain = tmp_to_string[7]
                 residues.append([res_type, chain])
     return residues
 
