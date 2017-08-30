@@ -17,7 +17,7 @@ class Protein:
 
     def write(self):
         '''Writes protein name to the screen.'''
-        print 'I am ' + self.name
+        print('I am ' + self.name)
 
 lys = Protein('lysozyme')
 myo = Protein('myoglobin')

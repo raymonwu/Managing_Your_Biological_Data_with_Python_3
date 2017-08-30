@@ -35,3 +35,5 @@ chromosomes = [
     Chromosome('X', 'gonosome', 154913754, 1846),
     Chromosome('Y', 'gonosome', 57741652, 454)
     ]
+
+print(chromosomes)

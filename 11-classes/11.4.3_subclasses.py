@@ -25,4 +25,5 @@ class CommentedPea(Pea):
 
 yellow1 = CommentedPea('GG', 'homozygote')
 yellow2 = CommentedPea('Gg', 'heterozygote')
-print yellow1
+print(yellow1)
+print(yellow2)
