@@ -14,4 +14,4 @@ Import and use a class.
 from pea import Pea
 
 green = Pea('gg')
-print green
+print(green)

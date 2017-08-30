@@ -23,5 +23,5 @@ class PeaStrain:
 yellow = Pea('GG')
 green = Pea('gg')
 strain = PeaStrain([yellow, green])
-print strain
+print(strain)
 

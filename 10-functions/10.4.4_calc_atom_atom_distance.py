@@ -27,4 +27,4 @@ while len(points) < 2:
         if res_num == '209' and chain == 'A' and atom == 'CA':
             points.append((x, y, z))
 
-print calc_dist(points[0], points[1])
+print(calc_dist(points[0], points[1]))

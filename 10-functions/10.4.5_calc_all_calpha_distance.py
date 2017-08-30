@@ -40,4 +40,4 @@ for i, atom1 in enumerate(ca_atoms):
         coord2 = atom2[4:]
         # calculate the distance between atoms
         dist = calc_dist(coord1, coord2)
-        print name1, name2, dist
+        print(name1, name2, dist)

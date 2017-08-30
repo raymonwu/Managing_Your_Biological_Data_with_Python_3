@@ -39,3 +39,26 @@ class Pea:
 
     def __repr__(self):
         return '(%s)' % self.genotype + '-----' + self.get_phenotype()
+
+yellow = Pea("GG")
+# print(yellow.genotype)
+# print(yellow.get_phenotype())
+# print(yellow)
+
+green = Pea("gg")
+# print(green.genotype)
+# print(green.get_phenotype())
+# print(green)
+
+# GG * gg
+f1 = yellow.create_offspring(green)
+# print(f1[0])
+# print(f1[1])
+
+# Gg * Gg
+f2 = f1[0].create_offspring(f1[1])
+print(f1)
+print(f2)
+
+for pea in f2:
+    print(pea.get_tab_separated_text())

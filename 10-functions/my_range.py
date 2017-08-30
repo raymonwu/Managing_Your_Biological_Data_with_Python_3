@@ -6,5 +6,5 @@ def my_range(start=None, stop=None, step=1):
         start = 0
         stop = start
     while start >= stop:
-        print start
+        print(start)
         start += step
