@@ -12,12 +12,13 @@ Catching errors with try.. except.. else
 '''
 
 try:
-    filename = raw_input("Insert a filename:")
-    in_file = open(filename)
-except IOError:
-    print "The filename %s has not been found." % filename
+    filename = input("Insert a filename:")
+    in_file = open(filename, "r")
+# IOError is also right
+except FileNotFoundError:
+    print("The filename %s has not been found." % filename)
     raise SystemExit
 else:
     for line in in_file:
-        print line
-        in_file.close()
+        print(line)
+    in_file.close()

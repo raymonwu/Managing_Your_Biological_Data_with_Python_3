@@ -12,8 +12,8 @@ Catching errors with try.. except
 '''
 
 try:
-    a = float(raw_input("Insert a number:"))
-    print a
+    a = float(input("Insert a number:"))
+    print(a)
 except ValueError:
-    print "You haven't inserted a number. Please retry."
+    print("You haven't inserted a number. Please retry.")
     raise SystemExit
